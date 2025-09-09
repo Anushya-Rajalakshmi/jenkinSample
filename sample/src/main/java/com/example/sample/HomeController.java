@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/greet")
     public String greeting(){
-        return "hello , this is jenkins sample program";
+        return "hello , this is jenkins sample program and it is edited";
     }
 }
